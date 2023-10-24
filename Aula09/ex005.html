@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    
+    <!-- ABAIXO O (INICIO DO) CSS DENTRO  DO HTML -->
+    <style>
+        body{
+            background: rgb(68, 125, 199);
+            color: white;
+            font: normal 18pt Arial;
+        }      
+
+    </style>
+    <!-- FIM DO CSS -->
+
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+
+    <div class="msg">Clique em mim</div><br> <!--USANDO A CLASS PARA MUDAR O querySelector
+    Ex. var d = window.document.querySelector('div.msg')-->
+
+    <!-- <div id="msg">Clique em mim</div><br>     OBS: pode ser usado o id
+    var d = window.document.querySelector('div#msg') -->
+
+    <!-- <div name="msg">Clique em mim</div><br>   OBS: pode usar o Name-->
+    <!-- <div class="msg">Clique em mim</div><br>  OBS: pode ser usado por class-->
+    
+    <!-- ABAIXO (O INICIO DO) JAVASCRIPT -->
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        //var d = window.document.getElementById('msg')  = USANDO O ById
+        //window.document.getElementById('msg').innerText = 'Olá!'
+        
+        //var d = window.document.getElementsByName('msg')[0] = USANDO O ByName        
+        //window.document.getElementsByClassName('msg')[0]
+
+        //window.document.write('Está escrito assim: ' + p1.innerText)
+        //corpo.style.background = 'yellow'
+        //p1.style.color = 'black'
+        //document.write(p1.innerHTML)
+        //window.alert(p1.innerHTML)
+        //window.alert(p1.innerText)
+        
+        //d.style.background = 'green' COLOCANDO CORES NA FONTE
+        //d.innerText = 'Estou aguardando...'
+        
+        //var d = window.document.getElementsByName('msg')[0]
+        //d.innerText = 'Olá!'
+
+        //var d = window.document.querySelector('div#msg')
+        //<div id="msg">Clique em mim</div><br>
+
+        //Quando é ID, usa o # (hastag) quando é CLASS, usao o .(PONTO)
+        var d = window.document.querySelector('div.msg') 
+        d.style.color = 'black'
+        d.style.background = 'green'
+
+        
+        
+        
+        
+
+
+
+
+    </script>
+    
+</body>
+</html>

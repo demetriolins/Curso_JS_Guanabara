@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body{       /*Isso é o comentario em CSS */
+            background-color: #3c3c6b;
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: rgb(255, 136, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá mundo!</h1> <!--Isso é comentario em HTML-->
+    <p>Já me livrei da maldição</p>
+    
+    <script>  //Isso é um comentario em JS
+        
+        /*Esss sao as duas maneiras de somarem numeros convertendo-os
+        de string para numeros */
+
+        /*var n1 = Number.parseInt(window.prompt('Digite um numero: '))
+        var n2 = Number.parseInt(window.prompt('Digite o segundo numero: '))
+        var soma = n1 + n2
+        window.alert('A soma dos valores é: ' + soma) */
+
+        var n4 = Number.parseFloat(window.prompt('Digite o primeiro numero: '))//String
+        var n5 = Number.parseInt(window.prompt('Digite o segundo numero: ')) //String
+        soma = n4 + n5
+        window.alert(`A soma entre ${n4} e ${n5} é igual a ${soma}`)
+
+        //(number + number) para adição
+        //(string + string) para concatenação
+        
+    </script>
+    
+</body>
+</html>

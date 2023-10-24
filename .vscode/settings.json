@@ -1,0 +1,20 @@
+{
+    "git.ignoreLimitWarning": true,
+    "editor.insertSpaces": true,
+	"editor.detectIndentation": false,
+    "editor.renderWhitespace": "selection",
+    "editor.suggest.matchOnWordStartOnly": true,
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "vsintellicode.java.completionsEnabled": false,
+    "vsintellicode.modify.editor.suggestSelection": "enabled",
+    "vsintellicode.typescript.completionsEnabled": false,
+    "html-css-class-completion.CSSLanguages": [
+        
+        "css",
+        "sass",
+        "scss"
+    ],
+    "vsintellicode.features.python.deepLearning": "default",
+    "java.autobuild.enabled": true,
+    "gitlens.keymap": "chorded"
+}
